@@ -169,3 +169,32 @@ input[type="email"]::placeholder {
 }
 
 /* footer portion related styles */
+footer {
+    background: #111010;
+    margin-top: 25px;
+    padding: 80px 524px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+}
