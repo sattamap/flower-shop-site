@@ -20,6 +20,20 @@ body {
 
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* header related styles */
 
 .flower-shop-banner {
@@ -63,6 +77,7 @@ body {
 
 /* main section styles */
 
+/* sale of section style */
 .sale-off {
     display: flex;
     justify-content: space-between;
@@ -76,14 +91,14 @@ body {
 .sale-off-content {
     max-width: 500px;
     text-align: center;
-    
+
 }
 
 .sale-off-title {
     color: #272727;
     font-size: 33px;
     font-weight: 800;
-    
+
 }
 
 .sale-off-description {
@@ -102,3 +117,55 @@ body {
 .sale-off .flower-banner-img {
     width: 300px;
 }
+
+/* instagram section related style */
+
+.instagram {
+    margin-top: 80px;
+}
+
+#instagram-description {
+    padding: 20px 492px;
+}
+
+.flowers-container {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+
+}
+
+.flowers {
+    width: 280px;
+}
+
+/* Deals section related style */
+.deal {
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: 1170px;
+    margin: 80px 176px 80px 176px;
+    padding: 120px 130px;
+}
+
+.deal-description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input[type="email"],
+input[type="email"]::placeholder {
+    width: 30%;
+    padding: 28px;
+    padding-right: 200px;
+    margin: 28px 0;
+    border: 0;
+    text-align: right;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+/* footer portion related styles */
