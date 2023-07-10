@@ -29,9 +29,6 @@ body {
     /* gap: 97px; */
     background: rgba(229, 84, 115, 0.10);
     padding: 50px 120px 0px 120px;
-    /* padding-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px; */
 
 }
 
@@ -44,7 +41,7 @@ body {
     font-size: 64px;
     font-weight: 800;
     margin-bottom: 0;
-    
+
 }
 
 .flower-shop-banner-description {
@@ -54,10 +51,54 @@ body {
     margin-top: 32px;
     margin-bottom: 32px;
 }
-.flower-shop-banner-content .btn-primary{
+
+.flower-shop-banner-content .btn-primary {
     margin-bottom: 32px;
 }
 
 .flower-shop-banner .flower-banner-img {
     width: 600px;
+}
+
+
+/* main section styles */
+
+.sale-off {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* height: 620px; */
+    padding: 100px 220px 100px 240px;
+}
+
+.sale-off-content {
+    max-width: 500px;
+    text-align: center;
+    
+}
+
+.sale-off-title {
+    color: #272727;
+    font-size: 33px;
+    font-weight: 800;
+    
+}
+
+.sale-off-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.sale-off-content .btn-primary {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.sale-off .flower-banner-img {
+    width: 300px;
 }
