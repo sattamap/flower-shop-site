@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Shared Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: 0;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+
+}
+
+/* header related styles */
+
+.flower-shop-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 97px; */
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 120px 0px 120px;
+    /* padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px; */
+
+}
+
+.flower-shop-banner-content {
+    max-width: 700px;
+}
+
+.flower-shop-banner-title {
+    color: #272727;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 0;
+    
+}
+
+.flower-shop-banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.flower-shop-banner-content .btn-primary{
+    margin-bottom: 32px;
+}
+
+.flower-shop-banner .flower-banner-img {
+    width: 600px;
+}
