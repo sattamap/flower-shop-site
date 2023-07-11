@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
+    <link rel="icon" type="image/x-icon" href="/Flower Asset/sitepic.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;800&display=swap"
@@ -13,21 +14,36 @@
 </head>
 
 <body>
-    <header class="flower-shop-banner">
-        <div class="flower-shop-banner-content">
-            <h1 class="flower-shop-banner-title">Let's make beautiful flowers a part of your life.</h1>
-            <p class="flower-shop-banner-description">It is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
-                a more-or-less normal distribution of letters.</p>
-            <button class="btn-primary">Shop Now</button>
+    <!-- header section -->
+    <header class="header" >
+        <nav>
+            <h3 class="header-title">Flower<span style="color: white;">Shop</span></h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#shop-now">Shop now</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about-us">About us</a></li>
+                
+            </ul>
+
+        </nav>
+        <div class="flower-shop-banner">
+            <div id="shop-now" class="flower-shop-banner-content">
+                <h1 class="flower-shop-banner-title">Let's make beautiful flowers a part of your life.</h1>
+                <p class="flower-shop-banner-description">It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                    a more-or-less normal distribution of letters.</p>
+                <button class="btn-primary">Shop Now</button>
+            </div>
+            <img class="flower-banner-img" src="Flower Asset/pngwing 10.png" alt="Tulip">
         </div>
-        <img class="flower-banner-img" src="Flower Asset/pngwing 10.png" alt="Tulip">
-
-
+        
     </header>
+    <!-- header section ends -->
     <main>
         <!-- Featured flower section starts from here -->
-        <section class="featured-flower-section">
+        <section id="featured" class="featured-flower-section">
             <h1 class="section-title">Our Featured Flowers</h1>
             <p class="featured-section-description">It is a long established fact that a reader will be distracted by
                 the
@@ -47,7 +63,8 @@
                 </div>
             </div>
         </section>
-        <section class="delivery-container">
+        <!-- Delivery and supports section starts from here -->
+        <section id="contact" class="delivery-container">
             <div class="delivery-content">
                 <img class="delivery-img" src="Flower Asset/Group 57.png" alt="delivery">
                 <h3 class="delivery-info">Same Day Delivery. Click & Collect.</h3>
@@ -61,6 +78,7 @@
                 <h3 class="delivery-info">24/7 Free Support</h3>
             </div>
         </section>
+        <!-- Sale off section starts from here -->
         <section class="sale-off">
             <div class="sale-off-content">
                 <h1 class="sale-off-title">Hot Deal ! Sale Up To 25% <span style="color: #E55473;">Off</span></h1>
@@ -94,7 +112,8 @@
 
         </section>
     </main>
-    <footer>
+    <!-- footer section starts from here -->
+    <footer id="about-us">
         <h3 class="footer-title">Flower<span style="color: white;">Shop</span> </h3>
         <p class="footer-description">It is a long established fact that a reader will be distracted by the readable
             content of a page when looking at its layout.</p>

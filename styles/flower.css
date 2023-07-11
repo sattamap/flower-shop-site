@@ -34,7 +34,48 @@ body {
     font-weight: 400;
 }
 
-/* header related styles */
+.header-title,
+.footer-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* header and nav bar related styles */
+.header>nav {
+    background-color: #3a5a4d;
+    background-image: url("../Flower Asset/sitepic.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(158, 230, 230);
+        
+
+}
+nav a:hover{
+    color: rgba(201, 63, 228, 0.767);
+}
+
 
 .flower-shop-banner {
     display: flex;
@@ -107,14 +148,14 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     height: 320px;
-    width: 190px;
+    width: 215px;
     text-align: center;
     padding: 100px 75px 0 75px;
 
 }
 
 .flower-img-1 {
-    width: 195px;
+    width: 210px;
     height: 320px;
 }
 
@@ -122,28 +163,28 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     height: 260px;
-    width: 236px;
+    width: 260px;
     text-align: center;
     padding: 110px 45px 50px 45px;
 }
 
 .flower-img-2 {
-    width: 245px;
+    width: 270px;
     height: 265px;
 }
 
 .featured-flower-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    height: 325px;
-    width: 190px;
+    height: 328px;
+    width: 210px;
     text-align: center;
     padding: 92px 74px 0 74px;
 }
 
 .flower-img-3 {
-    width: 195px;
-    height: 325px;
+    width: 210px;
+    height: 328px;
 }
 
 .flower-img-tag-1,
@@ -177,9 +218,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 150px;
+    padding: 50px 150px;
 }
-.delivery-content{
+
+.delivery-content {
     text-align: center;
     padding: 50px;
 }
@@ -206,7 +248,7 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
-    padding: 100px 220px 100px 240px;
+    padding: 90px 220px 90px 240px;
 }
 
 .sale-off-content {
@@ -289,7 +331,8 @@ input[type="email"]::placeholder {
     font-weight: 400;
 
 }
-.deal-btn-primary{
+
+.deal-btn-primary {
     border-radius: 8px;
     border: 0;
     background: #E55473;
@@ -308,12 +351,7 @@ footer {
     text-align: center;
 }
 
-.footer-title {
-    color: #E55473;
-    font-family: Lato;
-    font-size: 48px;
-    font-weight: 800;
-}
+
 
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
